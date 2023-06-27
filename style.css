@@ -1,0 +1,56 @@
+h1{
+  text-align: center;
+}
+
+#round{
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+  margin-left: 50rem;
+  background: #5200FF;
+  position: relative;
+  transition: top 0.5s ease;
+  margin-top: 5rem;
+
+}
+
+#square{
+  width: 90px;
+  height: 90px;   
+  margin-left: 40rem;
+  margin-top: -5.7rem;
+  background: #FF0000;
+  position: relative;
+  transition: top 0.5s ease;
+}
+
+#triangle{
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #CCFF00;
+  border-left: 50px solid transparent;
+  margin-left: 30rem;
+  margin-top: -5.9rem;
+  position: relative;
+  transition: top 0.5s ease;
+  
+}
+
+#round:hover{
+  background: #FF0000;
+}
+
+#square:hover{
+ background: #5200FF;
+}
+
+#triangle:hover{
+border-bottom: 100px solid #ca8747;
+}
+
+button{
+  margin-top: 15rem;
+  margin-left: 40rem;
+}
+
